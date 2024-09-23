@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Blog personal sobre tecnología, desarrollo y temas de interés.">
+    <title>Mi Blog</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-image: url('./pexels-tatianasyrikova-3932735.jpg'); /* Imagen de fondo */
+            background-size: cover; /* Ajusta la imagen para que cubra toda la pantalla */
+            background-position: center; /* Centra la imagen */
+            background-attachment: fixed; /* Hace que la imagen de fondo no se desplace al hacer scroll */
+            background-color: #f4f4f4; /* Color de fondo de respaldo si no se carga la imagen */
+        }
+        header {
+            background-color: rgba(51, 51, 51, 0.8); /* Fondo con transparencia */
+            color: white;
+            padding: 10px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 2.5rem;
+        }
+        nav {
+            background-color: rgba(85, 85, 85, 0.8); /* Fondo con transparencia */
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            margin: 0 15px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        main {
+            display: flex;
+            margin: 20px;
+        }
+        article {
+            flex: 3;
+            background-color: rgba(255, 255, 255, 0.9); /* Fondo con transparencia */
+            padding: 20px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        article h2 {
+            margin-top: 0;
+        }
+        aside {
+            flex: 1;
+            background-color: rgba(249, 249, 249, 0.9); /* Fondo con transparencia */
+            padding: 20px;
+            border-radius: 5px;
+        }
+        aside h3 {
+            margin-top: 0;
+        }
+        footer {
+            background-color: rgba(51, 51, 51, 0.8); /* Fondo con transparencia */
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Mi Blog Personal</h1>
+    </header>
+
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Sobre mí</a>
+        <a href="#">Categorías</a>
+        <a href="#">Contacto</a>
+    </nav>
+
+    <main>
+        <article>
+            <h2>Título del artículo</h2>
+            <p>Publicado el 23 de septiembre de 2024</p>
+            <p>
+                Este es el contenido del artículo. Aquí puedes hablar sobre temas interesantes, compartir conocimientos y
+                experiencias. Escribe lo que consideres relevante para tus lectores.
+            </p>
+            <p>
+                Puedes dividir el contenido en párrafos, agregar imágenes, videos o cualquier otro tipo de contenido multimedia
+                que enriquezca tu blog.
+            </p>
+        </article>
+
+        <aside>
+            <h3>Categorías</h3>
+            <ul>
+                <li><a href="#">Tecnología</a></li>
+                <li><a href="#">Desarrollo</a></li>
+                <li><a href="#">Viajes</a></li>
+                <li><a href="#">Fotografía</a></li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>© 2024 Mi Blog Personal. Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>
